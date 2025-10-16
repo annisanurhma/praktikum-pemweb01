@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV sederhana Mahasiswa baru</title>
+    <style>
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      color: #0f172a;
+  }
+
+  header {
+      background-color: #2563eb;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+  }
+
+  nav {
+      margin-top: 10px;
+  }
+
+  nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+
+  nav a:hover {
+      text-decoration: underline;
+  }
+
+  /* Layout menggunakan float */
+  main {
+      margin: 20px;
+      overflow: auto;
+  }
+
+  section {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+  }
+
+  #konten {
+      float: left;
+      width: 65%;
+  }
+
+  #sidebar {
+      float: right;
+      width: 30%;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+  }
+
+  footer {
+      clear: both;
+      background: #0f172a;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+  }
+
+  h2 {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 4px;
+  }
+
+  .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      border-radius: 8px;
+      padding: 3px 8px;
+      font-size: 12px;
+      margin-right: 5px;
+  }
+
+  .frame {
+      width: 100%;
+      height: 200px;
+      border: 0;
+      border-radius: 6px;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+  <h1>Curriculum Vitae</h1>
+  <p>Annisa Nur Rohma • Mahasiswa Baru</p>
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#kemampuan">Kemampuan</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+  </header>
+  
+  <main>
+    <div id="konten">
+      <section id="profil">
+        <h2>Profil</h2>
+        <p>Halo semua! Perkenalkan nama saya
+        <strong>Annisa Nur Rohma</strong>, Mahasiswa baru yang sedang belajar pada <em> Web Development</em> saya sedang belajar HTML, CSS dan Framework Laravel.
+        </p>
+      </section>
+      
+      <section id="Pendidikan">
+        <h2>Pendidikan</h2>
+        <p>SMK Citra Negara Depok <strong>(2022-2025)</strong></p>
+        <p>STT Terpadu Nurul Fikri <strong>(2025-2029)</strong></p>
+      </section>
+      <section id="Kemampuan">
+        <h2>Kemampuan</h2>
+        <p>
+          <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+              <span class="tag">java script</span>
+                <span class="tag">Makeup</span>
+                  <span class="tag">Menari</span>
+                    <span class="tag">Akting</span>
+          </p>
+      </section>
+      
+      <section id="Kontak">
+        <h2> Kontak </h2>
+        <p>Email : <a href="nurrohmaanisa@gmail.com">nurrohmaanisa@gmail.com
+          </a>
+          </p>
+        <p>No HP: 08888812
+        </p>
+        <p>
+          Pratinjau
+           Portofolio
+        </p>
+        <iframe class="frame" src="https://www.wikipedia.org" title="contoh iframe">
+        </iframe>
+      </section>
+      
+      <div id=sidebar>
+        <h2>Tentang Saya</h2>
+        <p>Saya suka Dunia seni Teater, belajar tentang Akting, Tata panggung, Tata rias, selain belajar cara kepemimpinan.</p>
+        <h3>Hobi</h3>
+        <ol>
+          <li>Makeup</li>
+          <li>Menari</li>
+          <li>Menonton</li>
+          <li>Olahraga</li>
+        </ol>
+        <h3>Bahasa</h3>
+        <ol>
+        <li>Indonesia</li>
+        <li>Inggris</li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  
+  
+  <footer>
+    &copy; 2025 Annisa - CV ini di buat dengan HTML, CSS, Internal, dan layout float
+  </footer>
+</body>
+</html>
